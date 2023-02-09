@@ -24,7 +24,7 @@ pnpm install
 
 ![image.png](https://s2.loli.net/2023/02/10/F1iTcmIGezv9KJM.png)
 
-![image.png](https://s2.loli.net/2023/02/10/F1iTcmIGezv9KJM.png)
+![image.png](https://s2.loli.net/2023/02/10/pSRe5olqvjyV9T6.png)
 
 ## 其他
 
