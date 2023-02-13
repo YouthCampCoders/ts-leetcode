@@ -20,28 +20,28 @@
  */
 
 // bfs
-// function maxDepth(root: TreeNode | null): number {
-//   let res = 0
+function maxDepth(root: TreeNode | null): number {
+  let res = 0
 
-//   if (!root) return res
+  if (!root) return res
 
-//   const queue: Array<TreeNode | null> = []
-//   queue.push(root)
+  const queue: Array<TreeNode | null> = []
+  queue.push(root)
 
-//   while (queue.length) {
-//     const length = queue.length // 提前记录好长度
+  while (queue.length) {
+    const length = queue.length // 提前记录好长度
 
-//     for (let i = 0; i < length; i++) {
-//       const node = queue.shift()
-//       node?.left && queue.push(node.left)
-//       node?.right && queue.push(node.right)
-//     }
+    for (let i = 0; i < length; i++) {
+      const node = queue.shift()
+      node?.left && queue.push(node.left)
+      node?.right && queue.push(node.right)
+    }
 
-//     res++
-//   }
+    res++
+  }
 
-//   return res
-// }
+  return res
+}
 
 // dfs 后续遍历
 function maxDepth(root: TreeNode | null): number {

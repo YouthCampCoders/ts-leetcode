@@ -20,7 +20,6 @@
  */
 
 // !![] 和 !!{} 都是true
-
 function levelOrder(root: TreeNode | null): number[][] {
   if (!root) return []
   let queue: Array<TreeNode | null> = [],
