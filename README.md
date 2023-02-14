@@ -26,6 +26,11 @@ pnpm install
 
 ![image.png](https://s2.loli.net/2023/02/10/pSRe5olqvjyV9T6.png)
 
-## 其他
+## 插件(option)
 
-可以在 vscode 中安装 leetcode 官方插件
+可以在 vscode 中安装 leetcode 官方插件，具体配置自行搜索，可以帮助我们自动生成题目模板。
+
+## 算法学习资料
+
+- [LABULADONG 的算法网站](https://labuladong.gitee.io/algo/)
+- [代码随想录](https://programmercarl.com/)
