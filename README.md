@@ -26,6 +26,24 @@ pnpm install
 
 ![image.png](https://s2.loli.net/2023/02/10/pSRe5olqvjyV9T6.png)
 
+## 运行方式
+
+如何运行代码，例如我们写好了一道题，自己填入了测试例子：
+
+<img width="745" alt="image" src="https://user-images.githubusercontent.com/79465534/219562271-9bf07956-08d8-4a8e-be29-954564e10f06.png">
+
+如果是 js 文件，直接在控制台输入 `node xxx` 即可，但是这是 ts 文件。
+根据笔者的经验，可以通过 `ts-node`、`tsx`、`deno` 来运行。
+
+`ts-node` 和 `tsx` 都是 `npm` 包，直接
+```shell
+npm install ts-node -g
+npm install tsx -g
+```
+即可，然后 `ts-node xxx` or `tsx xxx` 即可运行。
+
+deno 是一个新的 JavaScript 运行时，安装方式见官网，安装好以后 `deno run xxx` 即可。
+
 ## 插件(option)
 
 可以在 vscode 中安装 leetcode 官方插件，具体配置自行搜索，可以帮助我们自动生成题目模板。
