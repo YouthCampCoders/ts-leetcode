@@ -1,6 +1,17 @@
 # ts-leetcode
 
-在面试中算法是很重要的一项，算法做不出来甚至有可能被拒之门外。本项目旨在于一起刷题，建议使用 `typescript` 刷题，已经配置好了调试 ts 的相关配置。
+> 在面试中算法是很重要的一项，算法做不出来甚至有可能被拒之门外。本项目旨在于一起刷题，建议使用 `typescript` 刷题，已经配置好了调试 ts 的相关配置。
+
+## 当前进度
+
+<!--START_TABLE-->
+| 文件夹 | 文件数量 |
+| --- | --- |
+| qhy |       50 |
+| szm |       18 |
+| tyx |        6 |
+
+<!--END_TABLE-->
 
 ## 食用方式
 
@@ -36,10 +47,12 @@ pnpm install
 根据笔者的经验，可以通过 `ts-node`、`tsx`、`deno` 来运行。
 
 `ts-node` 和 `tsx` 都是 `npm` 包，直接
+
 ```shell
 npm install ts-node -g
 npm install tsx -g
 ```
+
 即可，然后 `ts-node xxx` or `tsx xxx` 即可运行。
 
 deno 是一个新的 JavaScript 运行时，安装方式见官网，安装好以后 `deno run xxx` 即可。
