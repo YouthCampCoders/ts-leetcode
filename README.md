@@ -7,8 +7,8 @@
 <!--START_TABLE-->
 | 文件夹 | 文件数量 |
 | --- | --- |
-| qhy |       50 |
-| szm |       18 |
+| qhy |       51 |
+| szm |       24 |
 | tyx |        6 |
 
 <!--END_TABLE-->
